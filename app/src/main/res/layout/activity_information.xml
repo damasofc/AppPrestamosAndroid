@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="12"
+    android:layout_marginTop="15dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="15dp"
+    android:columnCount="2"
+    android:id="@+id/gridInformation"
+    tools:context="com.damasofc.tareaandroid.InformationActivity">
+    <TextView
+        android:layout_columnWeight="1"
+        android:text="Monto Prestamo: "
+        android:textSize="20dp"
+        android:textColor="@color/colorAccent"/>
+    <TextView
+        android:id="@+id/txt_Monto"
+        android:layout_columnWeight="1"
+        android:paddingRight="100dp"
+        android:layout_marginTop="10dp"
+        android:textSize="13dp"/>
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_columnWeight="1"
+        android:text="Cantidad de años a pagarlo:"
+        android:textSize="20dp"
+        android:textColor="@color/colorAccent"/>
+    <TextView
+        android:id="@+id/txt_Años"
+        android:layout_columnWeight="4"
+        android:layout_marginTop="25dp"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_columnWeight="1"
+        android:text="Fecha Fin de Pago:"
+        android:textSize="20dp"
+        android:textColor="@color/colorAccent"/>
+    <TextView
+        android:id="@+id/txt_FechaFin"
+        android:layout_columnWeight="4"
+        android:layout_marginTop="25dp"
+        android:textSize="13dp"/>
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_columnWeight="1"
+        android:text="Tipo de Prestamo:"
+        android:textSize="20dp"
+        android:textColor="@color/colorAccent"/>
+    <TextView
+        android:id="@+id/txt_TipoPrestamo"
+        android:layout_columnWeight="4"
+        android:layout_marginTop="25dp"
+        android:textSize="13dp"/>
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_columnWeight="1"
+        android:text="Monto Ajustado:"
+        android:textSize="20dp"
+        android:textColor="@color/colorAccent"/>
+    <TextView
+        android:id="@+id/txt_MontoAjustado"
+        android:layout_columnWeight="4"
+        android:layout_marginTop="25dp"
+        android:textSize="13dp"/>
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_columnWeight="1"
+        android:text="Monto Intereses:"
+        android:textSize="20dp"
+        android:textColor="@color/colorAccent"/>
+    <TextView
+        android:id="@+id/txt_MontoIntereses"
+        android:layout_columnWeight="4"
+        android:paddingRight="100dp"
+        android:layout_marginTop="25dp"
+        android:textSize="13dp"/>
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_columnWeight="1"
+        android:text="Monto Total a Cobrar:"
+        android:textSize="20dp"
+        android:textColor="@color/colorAccent"/>
+    <TextView
+        android:id="@+id/txt_MontoTotal"
+        android:layout_columnWeight="4"
+        android:layout_marginTop="25dp"
+        android:textSize="13dp"/>
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_columnWeight="1"
+        android:text="Cuota Mensual"
+        android:textSize="20dp"
+        android:textColor="@color/colorAccent"/>
+    <TextView
+        android:id="@+id/txt_CuotaMensual"
+        android:layout_columnWeight="4"
+        android:layout_marginTop="25dp"
+        android:textSize="13dp"/>
+    <Button
+        android:id="@+id/btn_Cotizar"
+        android:text="Cotizar"
+        android:layout_columnWeight="1"
+        android:layout_columnSpan="2"/>
+
+</GridLayout>
